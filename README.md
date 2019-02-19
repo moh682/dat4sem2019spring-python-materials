@@ -1,4 +1,6 @@
 # Getting Things Done with Python - Curriculum
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datsoftlyngby/dat4sem2019spring-python-materials/master)
+
 
 ## Intro
   * [01-Intro.ipynb](notebooks/01-Intro.ipynb)
