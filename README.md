@@ -2,6 +2,8 @@ The schedule for 'Getting things done with Python' elective, spring 2019.
 
 All Tuesdays start at 12:30 until 16:00. All Thursdays start at 8:30 until 12:00.
 
+[curriculum](curriculum.md)
+
 Week  | Date | Topic | Reading material | 
 :---: | :----: | :--------------------------------------------------------------------: | :------: |
 5 | 29/1 | Intro, Getting started					    |     JEEP, THA     |
