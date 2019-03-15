@@ -7,10 +7,4 @@ __pycache__/
 **/team/
 **/later/
 **/submissions/
-<<<<<<< HEAD
 **/solutions/
-**/api_keys.py
-api_keys.py
-=======
-**/solutions/api_keys.py
->>>>>>> 598936e51e483023b66f0d5d4815a1a76ee7d3dc
