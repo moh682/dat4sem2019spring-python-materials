@@ -9,3 +9,4 @@ __pycache__/
 **/submissions/
 **/solutions/
 api_keys.py
+*.html
