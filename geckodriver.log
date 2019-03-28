@@ -970,3 +970,29 @@ IPDL protocol error: Handler returned error code!
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
 1553702179570	Marionette	INFO	Stopped listening on port 44875
+1553782233942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ocgOl6TvoBzY"
+1553782234939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1553782234939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1553782237345	Marionette	INFO	Listening on port 41833
+1553782237406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://julio-cdn.eniro.com/pixel/eniro.pixel.script-2.0.js, line 176: ReferenceError: AWS is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16108, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-5TPFUC/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 16108, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-5TPFUC/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1553782647053	Marionette	INFO	Stopped listening on port 41833
+1553783294014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5VLcyv9Hwiyv"
+1553783294706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1553783294706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1553783297138	Marionette	INFO	Listening on port 38799
+1553783297403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://julio-cdn.eniro.com/pixel/eniro.pixel.script-2.0.js, line 176: ReferenceError: AWS is not defined
