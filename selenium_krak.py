@@ -3,7 +3,6 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-
 def get_info(name):
     base_url = 'http://www.krak.dk'
     browser = webdriver.Firefox()
@@ -44,8 +43,6 @@ def get_info(name):
 def save_to_file(content, out_path='./test.txt'):
     with open(out_path, 'w') as f:
         f.write(content)
-
-
 
 entries = get_info('Møller')
 save_to_file('\n\n'.join(entries))
