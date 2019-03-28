@@ -7,9 +7,6 @@ __pycache__/
 **/team/
 **/later/
 **/submissions/
-<<<<<<< HEAD
-**/solutions/api_keys.py
-=======
 **/solutions/
 api_keys.py
->>>>>>> upstream/master
+*.html
